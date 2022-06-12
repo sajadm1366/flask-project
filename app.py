@@ -1,7 +1,5 @@
 from email.policy import default
-import imp
-from re import U
-from flask import Flask, render_template, url_for, request, redirect, session
+from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
