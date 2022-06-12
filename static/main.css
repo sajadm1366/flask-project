@@ -8,5 +8,24 @@ body {
   h1 {
     color: rgb(102, 102, 92);
     font-family: verdana;
-    font-size: 300%;
+  }
+
+
+
+  .content {
+    border: 1px outset red;
+    background-color: lightblue;
+    text-align: center;
+    margin: 25px;
+  }
+
+
+  table, th, td {
+    border: 1px solid;
+  }
+
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
   }
